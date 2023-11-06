@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".fragment.FaqFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/Main_color"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/faq_back_press_button"
+            android:layout_width="@dimen/backPress_btn_size"
+            android:layout_height="@dimen/backPress_btn_size"
+            android:src="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/savollar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fragment_title_text_size" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/more_questions"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/check_status_btn_height"
+            android:text="@string/ko_proq_savollar"
+            android:textColor="#B08E15"
+            android:textAllCaps="false"
+            android:textSize="@dimen/check_status_btn_text_size"
+
+            android:paddingHorizontal="15dp"
+
+            android:background="@drawable/background_check"/>
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/faq_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="none"
+        android:background="#FFFEFE"/>
+
+
+
+</LinearLayout>

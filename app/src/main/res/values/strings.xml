@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Uzmobile Offline</string>
+    <string name="company_name">Sher Software Mobile Group</string>
+    <string name="uzbek_language">O\'zbek</string>
+    <string name="russkiy_language">Русский</string>
+    <string name="krill_language">Ўзбек</string>
+
+
+    <string name="kunlik">Kunlik</string>
+    <string name="haftalik">Haftalik</string>
+    <string name="oylik">Oylik</string>
+    <string name="trafikni_tekshirish">Trafikni tekshirish</string>
+    <string name="tarifni_tekshirish">Tarifni tekshirish</string>
+    <string name="sms_tekshirish">SMS tekshirish</string>
+    <string name="internet_paketlar">Internet paketlar</string>
+    <string name="sms_paketlar">SMS paketlar</string>
+    <string name="tarif">Tariflar</string>
+    <string name="service">Xizmatlar</string>
+    <string name="ussd_code">USSD kodlar</string>
+
+    <string name="expandable_title_item">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco  </string>
+
+    <string name="ulanish">Ulanish</string>
+    <string name="_10_sms">10 SMS</string>
+    <string name="_10_mb">10 MB</string>
+    <string name="_10_min">10 MIN</string>
+    <string name="oddiy_10">Oddiy 10</string>
+    <string name="oyiga_10_000_so_m">Oyiga 10 000 so\'m</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="abonent_to_lovi">Abonent to\'lovi:</string>
+    <string name="batafsil">Batafsil</string>
+    <string name="bottom_menu_balance">Balans</string>
+    <string name="bottom_menu_operator">Operator</string>
+    <string name="bottom_nav_news">Yangiliklar</string>
+    <string name="bottom_nav_setting">Sozlamalar</string>
+    <string name="daqiqa_paketlar">Daqiqa paketlar</string>
+    <string name="uzmobile_text_status">Ishonchli aloqa mobil operatori</string>
+    <string name="dark_mode">Tungi rejim</string>
+    <string name="sozlamalar">Sozlamalar</string>
+    <string name="daqiqani_tekshirish">Daqiqani tekshirish</string>
+    <string name="news_title">Yangi tarif sizga </string>
+    <string name="ko_proq_yangiliklar">Ko\'proq yangiliklar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="savollar">Savollar</string>
+    <string name="chiqish_xabari">Chiqish xabari</string>
+    <string name="dasturdan_chiqishni_hohlaysizmi">Dasturdan chiqishni hohlaysizmi ?</string>
+    <string name="yo_q">Yo\'q</string>
+    <string name="ha">Ha</string>
+    <string name="dastur_haqida">Dastur haqida</string>
+    <string name="bizning_dasturlar">Bizning dasturlar</string>
+    <string name="faq">FAQ</string>
+    <string name="chiqish">Chiqish</string>
+    <string name="ko_proq_savollar">Ko\'proq savollar</string>
+    <string name="tushunarli">Tushunarli</string>
+    <string name="attention">Diqqat</string>
+<!--    <string name="attention_desc">Tez orada dasturlarimiz haqida ma\'lumot qo'shiladi!!!</string>-->
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    //splash activity
+    <dimen name="splash_icon_size">195dp</dimen>
+    <dimen name="splash_text_size">17sp</dimen>
+
+
+    //main activity
+    <dimen name="telegram_icon_width">25.2dp</dimen>
+    <dimen name="telegram_icon_height">22.12dp</dimen>
+    <dimen name="share_icon_width">18dp</dimen>
+    <dimen name="share_icon_height">20dp</dimen>
+    <dimen name="toolbar_bar_height">55dp</dimen>
+    <dimen name="bottom_nav_icon_size">25dp</dimen>
+    <dimen name="flat_icon_size">70dp</dimen>
+    <dimen name="flat_child_icon_size">30dp</dimen>
+
+    //home fragment
+    <dimen name="uzb_icon_width">190dp</dimen>
+    <dimen name="uzb_icon_height">40dp</dimen>
+    <dimen name="home_title_text_size">14sp</dimen>
+    <dimen name="home_banner_width">340dp</dimen>
+    <dimen name="home_grid_width">340dp</dimen>
+    <dimen name="home_grid_height">266dp</dimen>
+    <dimen name="home_grid_item_text_size">16sp</dimen>
+    <dimen name="home_grid_icon_size">54dp</dimen>
+    <dimen name="home_viewPager_margin_top">20dp</dimen>
+    <dimen name="home_indicators_margin_top">10dp</dimen>
+    <dimen name="home_grid_card_margin_top">10dp</dimen>
+
+    //banner item
+    <dimen name="banner_item_title_text_size">25sp</dimen>
+    <dimen name="banner_item_icon_size">45dp</dimen>
+    <dimen name="banner_item_icon_text_size">16sp</dimen>
+    <dimen name="banner_item_month_text_size">14sp</dimen>
+
+
+    //banner fragment
+    <dimen name="banner_title_text_size">20sp</dimen>
+    <dimen name="standart_text_size">16sp</dimen>
+    <dimen name="banner_desc_text_size">14sp</dimen>
+    <dimen name="banner_btn_text_size">14sp</dimen>
+    <dimen name="banner_btn_height">40dp</dimen>
+    <dimen name="banner_layout_margin_top">90dp</dimen>
+    <dimen name="banner_view_margin_top">16dp</dimen>
+    <dimen name="banner_scroll_height">200dp</dimen>
+
+    //similar fragments
+    <dimen name="backPress_btn_size">30dp</dimen>
+    <dimen name="fragment_title_text_size">20sp</dimen>
+    <dimen name="check_status_btn_height">35dp</dimen>
+    <dimen name="check_status_btn_text_size">14sp</dimen>
+    <dimen name="daily_text_height">30dp</dimen>
+    <dimen name="daily_text_size">14sp</dimen>
+
+    //expandable prent items
+    <dimen name="exp_image_text_width_size">55dp</dimen>
+    <dimen name="exp_image_text_size">16sp</dimen>
+    <dimen name="exp_title_name_text_size">17sp</dimen>
+    <dimen name="exp_drop_icon_size">18dp</dimen>
+    <dimen name="exp_desc_text_size">12sp</dimen>
+
+    //exp child title items
+    <dimen name="exp_child_btn_width">135dp</dimen>
+    <dimen name="exp_child_btn_height">32dp</dimen>
+    <dimen name="exp_child_btn_text_size">14sp</dimen>
+
+
+    // setting activity
+    <dimen name="setting_title_text_size">17sp</dimen>
+    <dimen name="setting_item_text_size">18sp</dimen>
+
+    //dialog
+    <dimen name="dialog_title_text_size">18sp</dimen>
+
+    // home background item
+    <dimen name="home_background_top">180dp</dimen>
+    <dimen name="home_background_bottom">320dp</dimen>
+
+
+    //banner indicators
+    <dimen name="banner_indicators_size">11dp</dimen>
+
+    //nav header
+    <dimen name="header_icon_width">190dp</dimen>
+    <dimen name="header_icon_height">70dp</dimen>
+    <dimen name="header_text_size">16sp</dimen>
+
+    // nav menu change icon size
+    <dimen name="design_navigation_icon_size" tools:override="true">25dp</dimen>
+
+    // about app
+    <dimen name="about_app_padding">24dp</dimen>
+</resources>

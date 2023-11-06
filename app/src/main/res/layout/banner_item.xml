@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/banner_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="10dp">
+
+    <TextView
+        android:id="@+id/banner_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/oddiy_10"
+        android:textColor="#FFD12D"
+        android:textSize="@dimen/banner_item_title_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/banner_item_icon_size"
+                android:layout_height="@dimen/banner_item_icon_size"
+                android:background="@drawable/banner_item_icon_background"
+                android:padding="7dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/banner_item_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/_10_min"
+                android:textColor="#FFD12D"
+                android:textSize="@dimen/banner_item_icon_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/banner_item_icon_size"
+                android:layout_height="@dimen/banner_item_icon_size"
+                android:background="@drawable/banner_item_icon_background"
+                android:padding="7dp"
+                android:src="@drawable/internet" />
+
+            <TextView
+                android:id="@+id/banner_item_net"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/_10_mb"
+                android:textColor="#FFD12D"
+                android:textSize="@dimen/banner_item_icon_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/banner_item_icon_size"
+                android:layout_height="@dimen/banner_item_icon_size"
+                android:background="@drawable/banner_item_icon_background"
+                android:padding="7dp"
+                android:src="@drawable/message_square" />
+
+            <TextView
+                android:id="@+id/banner_item_sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/_10_sms"
+                android:textColor="#FFD12D"
+                android:textSize="@dimen/banner_item_icon_text_size" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/banner_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/oyiga_10_000_so_m"
+        android:textColor="#68D2FF"
+        android:textSize="@dimen/banner_item_month_text_size" />
+
+
+</LinearLayout>

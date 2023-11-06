@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--   180 mi play-->
+    <item
+        android:top="@dimen/home_background_top"
+        android:drawable="@color/white" />
+
+    <!-- 320 mi play-->
+    <item
+        android:bottom="@dimen/home_background_bottom"
+        android:drawable="@color/Main_color" />
+</layer-list>

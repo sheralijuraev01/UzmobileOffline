@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Main_color"
+    android:orientation="vertical"
+
+    tools:context=".fragment.InternetFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/internet_back_press_button"
+            android:layout_width="@dimen/backPress_btn_size"
+            android:layout_height="@dimen/backPress_btn_size"
+            android:src="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/internet_paketlar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fragment_title_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/internet_daily_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/daily_text_height"
+            android:background="@drawable/no_selected_item_background"
+            android:onClick="onClick"
+            android:paddingHorizontal="8dp"
+            android:tag="0"
+            android:text="@string/kunlik"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/daily_text_size"
+            tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/internet_weekly_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/daily_text_height"
+            android:layout_marginHorizontal="16dp"
+            android:background="@drawable/no_selected_item_background"
+            android:onClick="onClick"
+            android:paddingHorizontal="8dp"
+            android:tag="1"
+            android:text="@string/haftalik"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/daily_text_size"
+            tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/internet_monthly_button"
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:layout_height="@dimen/daily_text_height"
+            android:background="@drawable/selected_item_background"
+            android:onClick="onClick"
+            android:tag="2"
+            android:text="@string/oylik"
+            android:textAllCaps="false"
+            android:textColor="@color/Main_color"
+            android:textSize="@dimen/daily_text_size"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/internet_check_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/check_status_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_check"
+        android:paddingHorizontal="15dp"
+        android:text="@string/trafikni_tekshirish"
+        android:textAllCaps="false"
+        android:textColor="#B08E15"
+        android:textSize="@dimen/check_status_btn_text_size" />
+
+    <ExpandableListView
+        android:id="@+id/internet_expandable_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:listSelector="@android:color/transparent"
+        android:background="@drawable/banner_background"
+        android:childDivider="@color/white"
+        android:divider="@color/white"
+        android:scrollbars="none" />
+</LinearLayout>

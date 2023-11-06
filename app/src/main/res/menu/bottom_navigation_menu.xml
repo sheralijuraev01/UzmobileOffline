@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_balance" android:icon="@drawable/balance" android:title="@string/bottom_menu_balance"  app:showAsAction="always"/>
+    <item android:id="@+id/nav_operator" android:icon="@drawable/operator" android:title="@string/bottom_menu_operator"  app:showAsAction="always"/>
+    <item android:id="@+id/nav_fab"      app:showAsAction="always" android:title=""  />
+    <item android:id="@+id/nav_notif" android:icon="@drawable/news" android:title="@string/bottom_nav_news"  app:showAsAction="always"/>
+    <item android:id="@+id/nav_setting" android:icon="@drawable/setting" android:title="@string/bottom_nav_setting"  app:showAsAction="always"/>
+
+   </group>
+</menu>

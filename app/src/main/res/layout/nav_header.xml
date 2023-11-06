@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_header">
+
+    <ImageView
+        android:id="@+id/home_uzmonile_icon"
+        android:layout_width="@dimen/header_icon_width"
+        android:layout_height="@dimen/header_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/home_uzmobile_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uzmobile_text_status"
+        android:textSize="@dimen/header_text_size"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

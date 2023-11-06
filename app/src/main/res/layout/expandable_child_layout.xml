@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="@dimen/exp_child_btn_width"
+        android:layout_height="@dimen/exp_child_btn_height"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/connect_button_background"
+        android:text="@string/ulanish"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/exp_child_btn_text_size"
+        tools:ignore="TouchTargetSizeCheck" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="16dp"
+        android:background="#8C8A8A"/>
+
+
+</LinearLayout>
